@@ -3,7 +3,7 @@ const fs = require('fs');
 const { ApolloServer, UserInputError } = require('apollo-server-express');
 const { Kind } = require('graphql/language');
 
-let aboutMessage = "Product Tracker for CS648";
+let aboutMessage = "My Company Inventory for CS648";
 
 const productsDB = [];
 
